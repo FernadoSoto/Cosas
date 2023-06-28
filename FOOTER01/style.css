@@ -1,0 +1,65 @@
+/*FOOTER*/
+.m-y {
+  margin-top: 12px ;
+  margin-bottom: 12px ;
+}
+
+@media (min-width: 1200px) {
+  .text-lg-left {
+    text-align: left ;
+  }
+
+  .text-lg-right {
+    text-align: right ;
+  }
+
+  .text-lg-center {
+    text-align: center ;
+  }
+}
+.w-full {
+  width: 100% ;
+}
+
+.bg-color-black {
+  background-color: #1a1a1a ;
+}
+
+.bg-color-black-secondary {
+  background-color: #272727 ;
+}
+
+.text-color-white {
+  color: #eee ;
+}
+/*ICONITOS*/
+.l24-bar {
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  min-height: 24px;
+  margin-bottom: 24px;
+  transition: all 0.3s;
+  transition-timing-function: cubic-bezier(0.09, 0.68, 0, 0.99);
+  z-index: 2000;
+}
+
+.l24-list__item {
+  display: inline-block;
+  padding: 4px;
+  transition: all 0.3s;
+}
+
+.l24-link:link, .l24-link:visited, .l24-link:hover, .l24-link:active, .l24-link:focus {
+  color: inherit;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.l24-link--effect-alpha:hover, .l24-link--effect-alpha:active, .l24-link--effect-alpha:focus {
+  opacity: 0.6;
+}

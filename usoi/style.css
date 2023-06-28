@@ -1,0 +1,112 @@
+*{
+    font-family: sans-serif;
+    margin: 0px;
+}
+body{
+    overflow-x: none;
+}
+header{
+	width: 100%;
+    display: flex;
+    background-color: #DC3434;
+    font-family: sans-serif;
+}
+.logo {
+    width: 20%;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo h2{
+    padding-left: 7px;
+    font-size: small;
+}
+.nav {
+    width: 80%;
+    text-align: center;
+}
+.navegacion{
+    font-family: sans-serif;
+    align-items: center;
+	margin: 30px auto;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #fffb00;
+	transition: all .3s;
+    background-color: #33425B;
+    border-radius: 60px;
+}
+/*banner*/
+.banner{
+    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.titulo{
+    font-size: xx-large;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-top: 25%;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+/*botones*/
+.botones {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    margin-top: 70px;
+  }
+  
+  .btn {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .bt-uk > li {
+    position: relative;
+    display: inline-block;
+    margin: 70px;
+    background-color: #DC3434;
+  }
+  
+  .bt-uk > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .bt-uk li a:hover {
+    color: #fffb00;
+    transition: all .4s;
+    background-color: #33425B;
+  }
+  
